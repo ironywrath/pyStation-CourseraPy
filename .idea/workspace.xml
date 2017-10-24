@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e0d0dc-a9b0-417f-a7c8-0692f6dda228" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CourseraPython.iml" afterPath="$PROJECT_DIR$/.idea/CourseraPython.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter13/ExtractingXML.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CourseraPython$socket1.coverage" NAME="socket1 Coverage Results" MODIFIED="1508582801268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12" />
+    <SUITE FILE_PATH="coverage/pyStation_CourseraPy$FollowingLinks.coverage" NAME="FollowingLinks Coverage Results" MODIFIED="1508781050250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12" />
     <SUITE FILE_PATH="coverage/CourseraPython$CountSum.coverage" NAME="CountSum Coverage Results" MODIFIED="1508194267920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11" />
+    <SUITE FILE_PATH="coverage/pyStation_CourseraPy$ExtractingXML.coverage" NAME="ExtractingXML Coverage Results" MODIFIED="1508806309955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter13" />
     <SUITE FILE_PATH="coverage/CourseraPython$ScrapingNumbers.coverage" NAME="ScrapingNumbers Coverage Results" MODIFIED="1508624485238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12" />
     <SUITE FILE_PATH="coverage/CourseraPython$hourspay.coverage" NAME="hourspay Coverage Results" MODIFIED="1506379855225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Course1/W4" />
     <SUITE FILE_PATH="coverage/CourseraPython$OthenHelloWorld.coverage" NAME="OthenHelloWorld Coverage Results" MODIFIED="1508030323345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Course1/W2" />
@@ -24,22 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OthenHelloWorld.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course1/W2/OthenHelloWorld.py">
+      <file leaf-file-name="CountSum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter11/CountSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountSum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter11/CountSum.py">
+      <file leaf-file-name="ScrapingNumbers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/ScrapingNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FollowingLinks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/FollowingLinks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,36 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScrapingNumbers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12/ScrapingNumbers.py">
+      <file leaf-file-name="ExtractingXML.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13/ExtractingXML.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FollowingLinks.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter12/FollowingLinks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="400">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hourspay.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Course1/W4/hourspay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -109,6 +101,7 @@
         <option value="$PROJECT_DIR$/Chapter12/socket1.py" />
         <option value="$PROJECT_DIR$/Chapter12/ScrapingNumbers.py" />
         <option value="$PROJECT_DIR$/Chapter12/FollowingLinks.py" />
+        <option value="$PROJECT_DIR$/Chapter13/ExtractingXML.py" />
       </list>
     </option>
   </component>
@@ -119,8 +112,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="24" />
+    <option name="x" value="103" />
+    <option name="y" value="6" />
     <option name="width" value="1702" />
     <option name="height" value="995" />
   </component>
@@ -139,45 +132,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CourseraPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseraPython" type="462c0819:PsiDirectoryNode" />
+              <item name="pyStation-CourseraPy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyStation-CourseraPy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CourseraPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseraPython" type="462c0819:PsiDirectoryNode" />
+              <item name="pyStation-CourseraPy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyStation-CourseraPy" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CourseraPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseraPython" type="462c0819:PsiDirectoryNode" />
+              <item name="pyStation-CourseraPy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyStation-CourseraPy" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CourseraPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseraPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CourseraPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseraPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="W2" type="462c0819:PsiDirectoryNode" />
+              <item name="pyStation-CourseraPy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyStation-CourseraPy" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.0.4/resources/app/git/cmd/git.exe" />
   </component>
   <component name="RunDashboard">
@@ -192,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FollowingLinks">
+  <component name="RunManager" selected="Python.ExtractingXML">
     <configuration name="CountSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,6 +198,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="ExtractingXML" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseraPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter13/ExtractingXML.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="FollowingLinks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,24 +230,6 @@
       <module name="CourseraPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12/FollowingLinks.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="OthenHelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Course1/W2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CourseraPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Course1/W2/OthenHelloWorld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,19 +271,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.OthenHelloWorld" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CountSum" />
-      <item index="2" class="java.lang.String" itemvalue="Python.socket1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ScrapingNumbers" />
-      <item index="4" class="java.lang.String" itemvalue="Python.FollowingLinks" />
+      <item index="0" class="java.lang.String" itemvalue="Python.CountSum" />
+      <item index="1" class="java.lang.String" itemvalue="Python.socket1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ScrapingNumbers" />
+      <item index="3" class="java.lang.String" itemvalue="Python.FollowingLinks" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ExtractingXML" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.FollowingLinks" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ScrapingNumbers" />
-        <item index="2" class="java.lang.String" itemvalue="Python.socket1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CountSum" />
-        <item index="4" class="java.lang.String" itemvalue="Python.OthenHelloWorld" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ExtractingXML" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FollowingLinks" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ScrapingNumbers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.socket1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CountSum" />
       </list>
     </recent_temporary>
   </component>
@@ -317,15 +304,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="24" width="1702" height="995" extended-state="0" />
+    <frame x="103" y="6" width="1702" height="995" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29464287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25773808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41324922" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29818183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -351,6 +339,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Course1/W2/OthenHelloWorld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter11/CountSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/socket1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/ScrapingNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/FollowingLinks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course1/W4/hourspay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Course1/W2/OthenHelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -587,14 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Course1/W4/hourspay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Course1/W2/OthenHelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -603,11 +635,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Course1/W4/hourspay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/CountSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/ScrapingNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -619,20 +669,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/ScrapingNumbers.py">
+    <entry file="file://$PROJECT_DIR$/Chapter12/FollowingLinks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="200">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/FollowingLinks.py">
+    <entry file="file://$PROJECT_DIR$/Chapter13/ExtractingXML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="400">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
